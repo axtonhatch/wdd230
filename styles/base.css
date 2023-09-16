@@ -5,8 +5,8 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: white;
+    color: rgb(33, 33, 33);
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -37,27 +37,24 @@ header h1 {
 
 nav ul {
     list-style: none;
-    background-color: #363636;
+    background-color: rgb(56, 55, 55);
     padding: 10px 0;
 }
 
 nav ul li {
     margin: 0 10px;
 }
+
 nav ul li {
     display: block;
     margin: 10px 0;
     text-align: center;
     transition: background-color 0.3s;
 }
-nav ul li:hover {
-    background-color: rgb(85, 40, 9); 
-    cursor: pointer; 
-}
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-weight: bold;
 }
 
@@ -84,7 +81,7 @@ main h2 {
 }
 
 .card {
-    background-color: #fff;
+    background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     width: 100%; 
@@ -103,7 +100,7 @@ main h2 {
     margin: 0;
     padding: 10px;
     background-color: #033265;
-    color: #fff;
+    color: white;
     text-align: center;
 }
 
@@ -119,7 +116,7 @@ main h2 {
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 10px 0;
 }
@@ -145,7 +142,6 @@ footer p {
 }@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
 
 body {
-  /*margin: 20px;*/
   font-family: 'PT Sans', sans-serif;
   max-width: 1200px;
   width: 650px;
@@ -153,13 +149,13 @@ body {
   margin-right: auto;
 }
 
-/* Header */
 header {
   display: grid;
   grid-template-columns: 1fr 2fr;
   align-items: center;
   background-color: #4d5286;
 }
+
 .profile {
   width: 100px;
   margin: 25px;
@@ -167,10 +163,10 @@ header {
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.75);
   justify-self: end;
 }
+
 header h1 {
   color: #dbdce0;
   padding: 25px;
-  
 }
 
 nav {
@@ -201,25 +197,25 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   padding: 20px;
-
   align-items: center;
 }
+
 h2 {
   text-align:center
-  /*text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.75);*/
 }
+
 h2:after
 {
     content:' ';
     display:block;
-    border:1px solid #868883;
+    border:1px solid white;
 }
 
 .card {
   border: 1px solid #868883;
   margin-bottom: 5px;
-  
 }
+
 .card h3 {
   background-color: #4d5286;
   color: #dbdce0;
@@ -227,10 +223,12 @@ h2:after
   padding: 5px;
   margin-top: 0;
 }
+
 .card ul {
   list-style-type: none;
   padding: 10px;
 }
+
 .card li {
   padding: 1px;
 }
@@ -244,7 +242,7 @@ footer {
 }
 
 footer p {
-  color: #ffffff;
+  color: white;
   margin: 3px;
 }
 
