@@ -3,6 +3,7 @@
     main {
      grid-template-columns: 1fr 1fr 1fr;
     }
+    
     #three {
       grid-column: span 1;
     }

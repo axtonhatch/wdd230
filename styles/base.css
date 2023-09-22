@@ -1,13 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap");
 
-/* Color Scheme: #868883, #608198, #ceaf9e, #263f3c, #dbdce0*/
-
 body {
-  /*margin: 20px;*/
   font-family: "PT Sans", sans-serif;
   max-width: 1200px;
   width: 100%;
-  min-width: min-content; /* Played around with this for a while - looked good until the smallest phone sizes and then it would have writing not on the background and require scrolling. By setting to min-content it keeps it responsive but keeps the content in the designed area. (note for myslef) */
+  min-width: min-content; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -18,12 +15,14 @@ header {
   align-items: center;
   background-color: #608198;
 }
+
 .profile {
   width: 100px;
   margin: 25px;
   border-radius: 5px;
   justify-self: end;
 }
+
 header h1 {
   color: #dbdce0;
   padding: 25px;
@@ -76,6 +75,7 @@ h2:after {
   border: 1px solid #868883;
   margin-bottom: 5px;
 }
+
 .card h3 {
   background-color: #608198;
   color: #dbdce0;
@@ -83,10 +83,12 @@ h2:after {
   padding: 5px;
   margin-top: 0;
 }
+
 .card ul {
   list-style-type: none;
   padding: 10px;
 }
+
 .card li {
   padding: 1px;
 }
