@@ -11,7 +11,8 @@ body{
   }
 
   header {
-    color: #608198;
+    color: white;
+    text-align: center;
   }
 
   footer {
@@ -19,10 +20,8 @@ body{
     text-align: center;
   }
   
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
+  img {
+    width: 610px;
   }
   
   section {
