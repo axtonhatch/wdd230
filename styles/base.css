@@ -30,6 +30,25 @@ header h1 {
 
 nav {
   background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hamburger Menu */
+#menu {
+	font-size: 1.5rem;
+	padding: 3px 7px 6px;
+	background-color: white;
+	color: black;
+ 	position: relative;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "✖️";
 }
 
 nav ul {
@@ -51,22 +70,6 @@ nav li a:hover {
   background-color: #c4c4c4;
   border-radius: 25px;
   color: #000000;
-}
-
-.menu-toggle {
-  display: none; /* Hide the button by default */
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.menu-items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: aliceblue;
 }
 
 main {
@@ -112,6 +115,21 @@ h2:after {
 .card p {
   padding-left: 1rem;
 }
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+  border-bottom: 10px;
+  
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  padding-bottom: 10px;
+}
+
 
 footer {
   display: grid;
