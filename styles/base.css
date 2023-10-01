@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap");
 
+/*ffffff-608198-90abbf-313334-b2bec4*/
+
 body {
   font-family: "PT Sans", sans-serif;
   max-width: 1200px;
@@ -34,7 +36,6 @@ nav {
   flex-direction: column;
 }
 
-/* Hamburger Menu */
 #menu {
 	font-size: 1.5rem;
 	padding: 3px 7px 6px;
@@ -65,6 +66,22 @@ nav li a {
   padding: 5px;
   text-decoration: none;
 }
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
+.active::before {
+	content: "⇣";
+}
+.active {
+  background-color: white;
+}
+
 
 nav li a:hover {
   background-color: #c4c4c4;
@@ -120,7 +137,6 @@ h2:after {
   padding-bottom: 50%;
   position: relative;
   border-bottom: 10px;
-  
 }
 
 .google-map iframe {
@@ -129,7 +145,6 @@ h2:after {
   position: absolute;
   padding-bottom: 10px;
 }
-
 
 footer {
   display: grid;
