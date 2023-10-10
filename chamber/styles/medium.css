@@ -1,15 +1,54 @@
-@media screen and (min-width: 600px) {
-
-
+@media screen and (min-width: 600px) and (max-width: 999px) {
 
     h1 {
       scale: 1.5;
     }
 
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    #menu {
+      display: none;
+    }
 
+    #navigation {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .open li a {
+      display: block !important;
+    }
+
+
+    #navigation::before { 
+      display: block !important;
+  }
+  
+
+    .container {
+        display:grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .one {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    .two {
+      grid-column: 2/2;
+      grid-row: 1/2;
+    }
+
+    .three {
+      grid-column: 1/2;
+      grid-row: 2/2;
+    }
+
+    .four {
+      grid-column: 2/2;
+      grid-row: 2/2;
     }
 }
   
