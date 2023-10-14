@@ -91,7 +91,7 @@ body {
     position: absolute;
 }
 
-.switch, .slider, .round { 
+.dark{ 
   display: flex;
   flex-direction: column;
 }
@@ -101,7 +101,7 @@ h1 {
     text-align: center;
     padding-top: 135px;
     color: #e7e7e7;
-    text-shadow: #313334 1px 1px;
+    text-shadow: #313334 1px 2px;
 }
 
 nav {
@@ -119,6 +119,13 @@ nav {
 
 #menu.open::before {
 	content: "✖︎";
+}
+
+#menu {
+  position: relative;
+  margin-left: 50%;
+  background-color: #608198;
+  color: #e7e7e7;
 }
 
 .nav {
@@ -150,7 +157,7 @@ nav {
 	width: 100%;
 }
 .open li a {
-	display: none;
+	display: block;
 }
 
 .child {
@@ -181,14 +188,9 @@ footer {
   color: #313334;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-}
-
-.footer-child {
-    margin: auto;
+.footer-child, .foot4{
+    padding: .1em;
+    text-align: center;
 }
 
 h3 {

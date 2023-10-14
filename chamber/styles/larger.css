@@ -1,4 +1,4 @@
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 36em) {
     h1 {
       scale: 2;
     }
@@ -7,17 +7,13 @@
       display: none;
     }
 
-    .nav {
-      display: flex;
+    .nav{
       flex-direction: row;
-  }
-
-  .open li a {
-    display: block;
-  }
-  .nav::before { 
-    display: block;
-  }
+    }
+    .nav li{
+      display: block;
+      flex: 1 1 100%;
+    }
 
     .container {
       display:grid;
@@ -46,4 +42,35 @@
     grid-row: 2/2;
   }
 
-  }
+  .footer-container {
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.foot1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.foot2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.foot3 {
+  grid-column: 3/3;
+  grid-row: 1/2;
+}
+
+.foot4 {
+  grid-column: 1/span 3;
+  grid-row: 2/2;
+  text-align: center;
+}
+
+.footer-child {
+  padding: 1em;
+  text-align: center;
+}
+}

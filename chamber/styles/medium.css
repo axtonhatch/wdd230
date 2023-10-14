@@ -1,54 +1,6 @@
-@media screen and (min-width: 600px) and (max-width: 999px) {
+@media screen and (min-width: 15em) and (max-width: 35em) {
 
     h1 {
       scale: 1.5;
     }
-
-    #menu {
-      display: none; 
-    }
-
-    .nav {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-
-    .open li a {
-      display: block;
-    }
-
-
-    .nav::before { 
-      display: block;
-  }
-  
-
-    .container {
-        display:grid;
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 20px;
-    }
-
-    .one {
-      grid-column: 1/2;
-      grid-row: 1/2;
-    }
-
-    .two {
-      grid-column: 2/2;
-      grid-row: 1/2;
-    }
-
-    .three {
-      grid-column: 1/2;
-      grid-row: 2/2;
-    }
-
-    .four {
-      grid-column: 2/2;
-      grid-row: 2/2;
-    }
 }
-  
