@@ -1,10 +1,89 @@
 body {
-    font-family: 'Lora', serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
     font-family: 'PT Sans', sans-serif;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  /* You can apply similar rules for other header elements, e.g., h2, h3, etc. */
+  .dark-mode h2 {
+    color: #313334;
+  }
+  
+  .dark-mode h3 {
+    color: #313334;
+  }
+  
+  .dark-mode nav a {
+    color: #313334;
+  }
+  
+  /* The switch - the box around the slider */
+  .switch {
+    margin-top: 20px;
+    margin-left: 47%;
+    position: relative;
+    display: flex;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #608198;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #608198;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
 
 .hero {
     width: 100%;
@@ -12,21 +91,73 @@ body {
     position: absolute;
 }
 
+.dark{ 
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
     position: relative ;
     text-align: center;
     padding-top: 135px;
     color: #e7e7e7;
-    text-shadow: #313334 1px 1px;
+    text-shadow: #313334 1px 2px;
+}
+
+nav {
+  background-color: #e7e7e7;
+  color: #e7e7e7;
 }
 
 .epic {
     padding-top: 275px;
 }
 
-#navigation {
-    display: flex;
-    flex-direction: row;
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "✖︎";
+}
+
+#menu {
+  position: relative;
+  margin-left: 50%;
+  background-color: #608198;
+  color: #e7e7e7;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.nav li{
+    display: none;
+}
+
+.nav li a {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #313334;
+}
+
+.nav li a:hover {
+	background-color: #e7e7e7;
+	color: #333;
+	font-weight: 700;
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
 }
 
 .child {
@@ -37,17 +168,11 @@ h1 {
 
 a:visited {
     color: #313334;
-}
-
-a {
-    text-decoration: none; 
-}
+} 
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr;
     margin: auto;
-    grid-gap: 20px ;
+    margin: 10px ;
 }
 
 .container-child {
@@ -58,18 +183,14 @@ a {
     color: #e7e7e7;
 }
 
-ul {
-    list-style-type: none;
+footer {
+  background-color: #e7e7e7;
+  color: #313334;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-}
-
-.footer-child {
-    margin: auto;
+.footer-child, .foot4{
+    padding: .1em;
+    text-align: center;
 }
 
 h3 {
@@ -92,3 +213,4 @@ h3 {
     scale: 2;
     margin-left: 20px;
 }
+

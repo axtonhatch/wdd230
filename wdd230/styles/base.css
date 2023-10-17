@@ -45,11 +45,15 @@ nav {
 }
 
 #menu::before {
-	content: "☰";
+	content: "✖︎";
 }
 
 #menu.open::before {
-	content: "✖️";
+	content: "☰";
+}
+
+#navigation::before {
+  display: none;
 }
 
 nav ul {
@@ -72,7 +76,7 @@ nav li a {
 	width: 100%;
 }
 .open li a {
-	display: block;
+	display: none;
 }
 
 .active::before {

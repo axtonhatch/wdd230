@@ -1,15 +1,6 @@
-@media screen and (min-width: 600px) {
-
-
+@media screen and (min-width: 15em) and (max-width: 35em) {
 
     h1 {
       scale: 1.5;
     }
-
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-    }
 }
-  

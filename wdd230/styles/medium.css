@@ -1,20 +1,30 @@
 @media only screen and (min-width: 641px ) {
-	body {
-    max-width: 900px;
+  body {
+    width: 750px;
   }
 
-	#menu {
-		display: none;
-	}
-
+  #menu {
+    display: none;
+  }
     
+  nav ul {
+    display: flex;
+  }
+    
+  nav ul li {
+    flex: 1 1 100%;
+  }
+    
+  #navigation {
+    display: flex;
+    flex-direction: row;
+  }
 
-	.navigation li a {
-    display: block;
-		flex: 1 1 100%;
-    color: black;
-    padding: 5px;
-    text-decoration: none;
-    text-align: center;
-   }
+  .open li a {
+    display: block !important;
+  }
+  #navigation::before { 
+    display: block !important;
+  }
+
 }
