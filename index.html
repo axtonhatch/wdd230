@@ -21,7 +21,7 @@
   </head>
   <body>
     <header>
-      <img class="profile" src="images/axipoo.png" alt="Picture of Axton Hatch">
+      <img class="profile" src="images/axipoo.webp" alt="Picture of Axton Hatch">
       <h1>Axton Hatch</h1>
     </header>
     <nav>
@@ -39,6 +39,16 @@
         </li>
       </ul>
     </nav>
+    <div class="hero">
+      <picture>
+        <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+        <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+        <img src="images/hero-large.webp" alt="Draper Utah Temple" width="1500" height="750">
+      </picture>
+      <div class="herolabel">
+        <p>Draper Utah Temple</p>
+      </div>
+    </div>
     <main>
       <h2>WDD 230: Web Frontend Development</h2>
       <section class="card">
@@ -82,7 +92,7 @@
     <footer>
       <p>
         &copy;<span id="year"></span><br>Axton Hatch<br>Utah
-        <img src="images/utah_state_flag.png" alt="Utah Flag">
+        <img src="images/utah-state-flag.webp" alt="Utah Flag">
       </p>
       <p id="updated">Last Updated: <span id="date1"></span></p>
     </footer>

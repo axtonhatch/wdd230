@@ -25,6 +25,36 @@ header {
   justify-self: end;
 }
 
+.hero {
+	margin: 10px auto;
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	padding: 1.5rem;
+}
+
+.herolabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:"Great Vibes", serif;
+}
+
+
+
 header h1 {
   color: #dbdce0;
   padding: 25px;
