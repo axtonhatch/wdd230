@@ -42,6 +42,11 @@
     grid-row: 2/2;
   }
 
+  .five {
+    position: relative;
+  }
+
+
   .footer-container {
     display: grid;  
     grid-template-columns: 1fr 1fr 1fr;
@@ -68,6 +73,7 @@
   grid-row: 2/2;
   text-align: center;
 }
+
 
 .footer-child {
   padding: 1em;

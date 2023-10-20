@@ -1,5 +1,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 
 .dark-mode {
@@ -194,7 +196,7 @@ footer {
 }
 
 .footer-child, .foot4{
-    padding: .1em;
+    padding: .5px;
     text-align: center;
 }
 
