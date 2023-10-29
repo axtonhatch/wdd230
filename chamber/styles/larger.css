@@ -15,16 +15,17 @@
       flex: 1 1 100%;
     }
 
-    .container {
+  .container {
       display:grid;
       grid-template-columns: 1fr 1fr; 
       grid-template-rows: 1fr 1fr;
-      grid-gap: 20px;
+      grid-gap: 25px;
   }
 
   .one{
     grid-column: 1/2;
     grid-row: 1/2;
+
   }
 
   .two{
@@ -80,3 +81,30 @@
   text-align: center;
 }
 }
+
+/* discover */
+
+.bigpapa {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerone {
+  display:flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.containertwo {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerone .container-child {
+  height: fit-content;
+  font-size: x-large;
+}
+
+
+
+
