@@ -105,6 +105,9 @@
   font-size: x-large;
 }
 
-
+figcaption {font-size: smaller;}
+/* hover effect */
+.hover:hover {box-shadow: 0 0 50px #333;}
+/* rounded corners - boxmodel */
 
 
