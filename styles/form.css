@@ -1,0 +1,43 @@
+:root {
+    --label-color: #333;
+    --input-border: 1px solid #ccc;
+    --input-padding: 5px;
+}
+
+main {
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+label {
+    color: var(--label-color);
+}
+
+input {
+    border: var(--input-border);
+    padding: var(--input-padding);
+    margin: 5px 0;
+}
+
+button {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+#range-value {
+    font-weight: bold;
+}
