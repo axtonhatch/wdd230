@@ -275,6 +275,7 @@ label {
   color: var(--label-color);
   display: block;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 input[type="text"],
