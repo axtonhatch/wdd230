@@ -1,6 +1,6 @@
 @media screen and (min-width: 36em) {
     h1 {
-      scale: 2;
+      text-size-adjust: 2em;
     }
 
     #menu {
