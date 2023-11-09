@@ -102,7 +102,7 @@ h1 {
     text-align: center;
     color: #e7e7e7;
     text-shadow: #313334 1px 2px;
-    scale: .5;
+    text-size-adjust: small;
 }
 
 nav {
@@ -200,18 +200,18 @@ h3 {
 
 .fa-facebook {
     color: blue;
-    scale: 2;
+    text-size-adjust: medium;
 }
 
 .fa-instagram {
     color: tan;
-    scale: 2;
+    text-size-adjust:large;
     margin-left: 20px;
 }
 
 .fa-youtube {
     color: red;
-    scale: 2;
+    text-size-adjust: large;
     margin-left: 20px;
 }
 
