@@ -303,8 +303,9 @@ button[type="submit"]:hover {
 }
 
 .joincontainer {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   padding-left: 10px;
   padding-right: 10px;
 }
+
