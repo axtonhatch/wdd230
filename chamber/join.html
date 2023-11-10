@@ -60,13 +60,13 @@
             <label for="last-name">Applicant's Last Name: <input type="text" id="last-name" name="last-name" required></label>
         </div>
         <div>
-            <label for="position">Applicant's Title/Position: <input type="text" id="position" name="position" required pattern="[a-zA-Z\s-]{7,}"></label>
+            <label for="position">Applicant's Title/Position: <input type="text" id="applicantTitle" name="applicantTitle" required pattern="[A-Za-z\- ]{7,}" title="Please enter a valid title or position (minimum 7 characters, only alpha characters, hyphens, and spaces allowed)"></label>
         </div>
         <div>
             <label for="email">Email Address: <input type="email" id="email" name="email" required placeholder="example@example.com"></label>
         </div>
         <div>
-            <label for="phone">Mobile Phone Number: <input type="text" id="applicantTitle" name="applicantTitle" required pattern="[A-Za-z\- ]{7,}" title="Please enter a valid title or position (minimum 7 characters, only alpha characters, hyphens, and spaces allowed)"></label>
+            <label for="phone">Mobile Phone Number: <input type="tel" id="phone" name="phone" required></label>
         </div>
         <div>
             <label for="organization">Business/Organization Name: <input type="text" id="organization" name="organization" required></label>
