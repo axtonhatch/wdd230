@@ -66,7 +66,7 @@
             <label for="email">Email Address: <input type="email" id="email" name="email" required placeholder="example@example.com"></label>
         </div>
         <div>
-            <label for="phone">Mobile Phone Number: <input type="tel" id="phone" name="phone" required></label>
+            <label for="phone">Mobile Phone Number: <input type="text" id="applicantTitle" name="applicantTitle" required pattern="[A-Za-z\- ]{7,}" title="Please enter a valid title or position (minimum 7 characters, only alpha characters, hyphens, and spaces allowed)"></label>
         </div>
         <div>
             <label for="organization">Business/Organization Name: <input type="text" id="organization" name="organization" required></label>
@@ -126,7 +126,6 @@
   <script src="scripts/getdates.js"></script>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/darkmode.js"></script>
-  <script src="scripts/windchill.js"></script>
 
 </body>
 </html>
