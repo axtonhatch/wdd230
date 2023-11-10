@@ -1,28 +1,64 @@
 body {
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    line-height: 1.6;
 }
 
-header, main, footer {
+header {
+    background-color: #608198;
+    color: #fff;
     text-align: center;
     padding: 20px;
 }
 
-header {
-    background-color: #333;
-    color: white;
+h1 {
+    font-size: 2em;
 }
 
 main {
+    padding: 3rem 2rem;
+}
+
+#cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+    gap: 2.5rem;
+}
+
+section {
+    border: 3px  #5b6c7d;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dbdce0;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #141b23;
+}
+
+.place{
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #608198;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
