@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Diego Vasquez">
+    <meta 
+        name="description" 
+        content="The Directory page of the Lommel City Chamber of Commerce, with the purpose to provide the necessary information about the local businesses which are members of the chamber, developed by Diego Vasquez for WDD230 course">
+    <!--Social Media Meta Tags-->     
+    <meta property="og:site_name" content="Lommel City Chamber of Commerce">
+    <meta property="og:title" content="Lommel City Chamber of Commerce 2023">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="This Directory page for the Lommel City Chamber of Commerce is
+                                            developed to serve as a network of information about the local businesses which are members of the chamber, for the community - 
+                                            Developed by Diego Vasquez for WDD230 course">
+    <meta property="og:image" content="https://davm07.github.io/wdd230/chamber/images/lommel.png">
+    <meta property="og:url" content="https://davm07.github.io/wdd230/chamber/">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <!--CSS-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <title>Directory of Members- Lommel Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Join Us</h1>
+          <picture>
+            <source media="(max-width: 500px)" srcset="images/provo-hero-small.webp">
+            <source media="(max-width: 1000px)" srcset="images/provo-hero-medium.webp">
+            <img src="images/provo-hero-large.webp" alt="yess" width="1500" height="750">
+          </picture>
+        </div>
+    </header>
+    <main class="directory-main">
+        <div class="epic">
+            <nav>
+              <button id="menu" title="Menu"></button>
+              <ul class="nav">
+                <li class="child"><a href="index.html">Home</a></li>
+                <li class="child"><a href="discover.html">Discover</a></li>
+                <li class="child"><a href="">Directory</a></li>
+                <li class="child"><a href="join.html">Join</a></li>
+              </ul>
+            </nav>
+            <label class="switch dark">
+              <input type="checkbox" onclick="myFunction()">
+              <span class="slider round dark"></span>
+            </label>  
+        <h1>Bussiness Directory</h1>
+        <div class="directory-btn">
+            <button type="button" id="grid-cards" aria-label="Change cards to grid layout" class="btnLayout">
+                <svg class="bi bi-grid-3x3-gap-fill" height="32" viewBox="0 0 16 16" width="32" xmlns="http://www.w3.org/2000/svg"><path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/></svg>
+            </button>
+            <button type="button" id="list-cards" aria-label="Change cards to list layout" class="btnLayout">
+                <svg viewBox="0 0 512 512" height="32" width="32" xmlns="http://www.w3.org/2000/svg"><path d="M80 48h-64C7.156 48 0 55.16 0 64v64c0 8.844 7.156 16 16 16h64C88.84 144 96 136.8 96 128V64C96 55.16 88.84 48 80 48zM80 208h-64C7.156 208 0 215.2 0 224v64c0 8.844 7.156 16 16 16h64C88.84 304 96 296.8 96 288V224C96 215.2 88.84 208 80 208zM80 368h-64C7.156 368 0 375.2 0 384v64c0 8.844 7.156 16 16 16h64C88.84 464 96 456.8 96 448v-64C96 375.2 88.84 368 80 368zM192 128h288c17.67 0 32-14.33 32-31.1S497.7 64 480 64H192C174.3 64 160 78.33 160 95.1S174.3 128 192 128zM480 384H192c-17.67 0-32 14.33-32 32s14.33 32 32 32h288c17.67 0 32-14.33 32-32S497.7 384 480 384zM480 224H192C174.3 224 160 238.3 160 256s14.33 32 32 32h288c17.67 0 32-14.33 32-32S497.7 224 480 224z"/></svg>
+            </button>
+        </div>
+        <div class="cards">
+            
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-child foot1">
+                <h3>Contact Information</h3>
+                <p>Call: 8011232345<br>Email: provo@gmail.com</p>
+            </div>
+            <div class="footer-child foot2">
+                <h3>Adresses</h3>
+                <p>20 E 40 N, Provo UT, 84606</p>
+            </div>
+            <div class="footer-child foot3">
+                <h3>Social Media Links</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+            <div class="foot4"> 
+              <p>&copy;<span id="year"></span> Axton Hatch
+              id="updated">Last Updated: <span id="date1"></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/responsivemenu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/directory.js"></script>
+    
+</body>
+</html>
