@@ -10,76 +10,58 @@
             "otherInformation": "Provo Towne Centre in Provo, UT, offers shopping, dining, and entertainment for all. Stop by today to see what’s new and grab a bite while you’re here."
         },
         {
-            "name": "Brico",
-            "address": "Buitensingel 60/8, 3920 Lommel",
-            "phoneNumber": "+32 011 55 44 14",
-            "websiteURL": "https://www.brico.be/fr/",
-            "imageFileName": "images/brico.svg",
+            "name": "Alta Bank",
+            "address": "201 E Center St, Provo, UT 84606",
+            "phoneNumber": "801-342-6000",
+            "websiteURL": "http://www.bankaf.com",
+            "imageFileName": "images/altabank.png",
             "membershipLevel": "Gold",
-            "otherInformation": "Brico is a Belgian hardware store chain. The chain focuses mainly on DIY items but also sells garden-related articles. The chain has 140 locations (as of February 2016) spread over Belgium, about 95 of which are franchised."
+            "otherInformation": "Altabank is a division of Glacier Bank™. To better serve you we have 25 retail banking locations from Preston, Idaho to St. George, Utah."
         },
         {
-            "name": "Decathlon",
-            "address": "Buitensingel 13, 3920 Lommel",
-            "phoneNumber": "+32 011 49 47 50",
-            "websiteURL": "https://www.decathlon.be/nl",
-            "imageFileName": "images/decathlon.svg",
+            "name": "Auto Chlor Systems",
+            "address": "905 N Main Street, A5, North Salt Lake Utah 84054",
+            "phoneNumber": "385-411-2295",
+            "websiteURL": "http://www.autochlor.com",
+            "imageFileName": "images/autochlor.png",
             "membershipLevel": "Silver",
-            "otherInformation": "Decathlon is a French sporting goods retailer. With over 2,080 stores in 56 countries and regions (2023), it is the largest sporting goods retailer in the world."
+            "otherInformation": "At Auto-Chlor, service is what we do best. We understand that every customer challenge is unique, which is why we immerse ourselves in many different industry standards to keep your business operating smoothly."
         },
         {
-            "name": "Exterioo Tuinmeubelen",
-            "address": "Binnensingel 90, 3920 Lommel",
-            "phoneNumber": "+32 011 36 10 37",
-            "websiteURL": "https://www.exterioo.be/nl/",
-            "imageFileName": "images/exterioo.svg",
+            "name": "Alexander's Print Advantage",
+            "address": "245 South 1060 West, Lindon, UT 84042",
+            "phoneNumber": "801-224-8666",
+            "websiteURL": "http://www.alexanders.com",
+            "imageFileName": "images/alexanders.png",
             "membershipLevel": "Bronze",
-            "otherInformation": "In the Exterioo showroom at Binnensingel 90 you will find everything to turn your garden or terrace into a place full of dreams and memories. Discover the collections of our brands Vinci, Bristol Essentials and Bristol À La Carte, test the quality and choose from materials such as aluminum, teak and wicker - and from more than 50 fabrics. And if you need help with designing your garden, our advisors are ready to provide you with tips and advice."
+            "otherInformation": "For over 40 years, Alexander's has been creating automated, personalized, print-on-demand experiences for our client's products and businesses"
         },
         {
-            "name": "IPL Plastics Lommel",
-            "address": "Gerard Mercatorstraat 15, 3920 Lommel",
-            "phoneNumber": "+32 011 55 30 29",
-            "websiteURL": "https://www.iplglobal.com/",
-            "imageFileName": "images/ipl.svg",
+            "name": "Bear Bones IT",
+            "address": "1855 North 1120 West Provo, UT 84604 United States",
+            "phoneNumber": "801-980-1735",
+            "websiteURL": "https://bearbonesit.com",
+            "imageFileName": "images/bearbonesit.png",
             "membershipLevel": "Silver",
-            "otherInformation": "With 50 years of experience and growth, serving customers in the food, beverage and personal care sectors, IPL Lommel is your partner in customized, sustainable packaging at scale."
+            "otherInformation": "Discover why dental offices are quickly deciding to work with Bear Bones IT to improve overall support in the practice while keeping costs down."
         },
         {
-            "name": "Krëfel",
-            "address": "Binnensingel 46, 3920 Lommel",
-            "phoneNumber": "+32 011 73 46 81",
-            "websiteURL": "https://www.krefel.be/nl/",
-            "imageFileName": "images/krefel.svg",
+            "name": "Big Leap",
+            "address": "1557 W. Innovation Way 5th Floor, Suite 05-138, Lehi, Utah 84043",
+            "phoneNumber": "801-876-5250",
+            "websiteURL": "http://www.bigleap.com",
+            "imageFileName": "images/bigleap.png",
             "membershipLevel": "Gold",
-            "otherInformation": "Krëfel is an originally Belgian retail chain that has been in French hands since 2019 and specializes in consumer electronics. The chain has 75 stores, an online store and more than 1,500 employees. All stores are located in Belgium. The head office and distribution center (more than 45,000 m²) are located in Humbeek (sub-municipality of Grimbergen)."
+            "otherInformation": "We’re here to help you develop long-term sources of customer acquisition and revenue growth – the right way! Get your own custom-built strategy today."
         },
         {
-            "name": "Kristalpark III",
-            "address": "Gerard Mercatorstraat 2, 3920 Lommel",
-            "phoneNumber": "+32 011 24 68 23",
-            "websiteURL": "https://kristalpark3.be/",
-            "imageFileName": "images/kristalpark.svg",
+            "name": "Blendtec, Inc.",
+            "address": "1206 S 1680 W, Orem, UT 84058",
+            "phoneNumber": "801-222-0888-x221",
+            "websiteURL": "http://www.blendtec.com",
+            "imageFileName": "images/blendtec.png",
             "membershipLevel": "Bronze",
-            "otherInformation": "Kristalpark III is located in an industrial zone totaling almost 900 hectares in Lommel, North Limburg, in the heart of the Euregio. This location is a strategic added value for established companies thanks to the accessibility of the province in general and of the industrial estate in particular via motorways, railways and waterways ."
-        },
-        {
-            "name": "Start People",
-            "address": "Hertog Jan Plein 26, 3920 Lommel",
-            "phoneNumber": "+32 011 66 82 40",
-            "websiteURL": "https://www.startpeople.be/nl/",
-            "imageFileName": "images/startpeople.svg",
-            "membershipLevel": "Silver",
-            "otherInformation": "Start People focuses on activities including temporary employment, secondment, recruitment & selection and payrolling, as well as specific markets including transport, logistics, technical, hotel & catering, (medical) care, call centers, office, education and governmentals."
-        },
-        {
-            "name": "TRIXXO Jobs",
-            "address": "Dorp 22, 3920 Lommel",
-            "phoneNumber": "+32 011 67 20 97",
-            "websiteURL": "https://www.trixxo.be/nl/kantoren/",
-            "imageFileName": "images/trixxo.svg",
-            "membershipLevel": "Bronze",
-            "otherInformation": "The TRIXXO Group is an extremely fast-growing company specialized in domestic help and temporary employment with a permanent option. From domestic helper to welder to engineer. Whatever you are looking for, we make that professional dream come true. Everyone is helped at TRIXXO."
-        }
+            "otherInformation": "Unleash your kitchen creativity on a whim - nothing is off limits. Get started with our Blending 101 course by clicking a recipe below!"
+        } 
     ]
 }
