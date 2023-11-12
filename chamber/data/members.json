@@ -14,7 +14,7 @@
             "address": "201 E Center St, Provo, UT 84606",
             "phoneNumber": "801-342-6000",
             "websiteURL": "http://www.bankaf.com",
-            "imageFileName": "images/altabank.png",
+            "imageFileName": "images/altabanklogo.png",
             "membershipLevel": "Gold",
             "otherInformation": "Altabank is a division of Glacier Bank™. To better serve you we have 25 retail banking locations from Preston, Idaho to St. George, Utah."
         },
@@ -62,6 +62,24 @@
             "imageFileName": "images/blendtec.png",
             "membershipLevel": "Bronze",
             "otherInformation": "Unleash your kitchen creativity on a whim - nothing is off limits. Get started with our Blending 101 course by clicking a recipe below!"
+        },
+        {
+            "name": "Neighbor Storage Inc.",
+            "address": "2500 Executive Pkwy Suite 400, Lehi, UT 84043",
+            "phoneNumber": "801-653-0264",
+            "websiteURL": "https://www.neighbor.com/",
+            "imageFileName": "images/neighbor.png",
+            "membershipLevel": "Bronze",
+            "otherInformation": "USafer, closer, more convenient storage — right in your neighborhood"
+        } 
+        {
+            "name": "Neighbor Storage Inc.",
+            "address": "2500 Executive Pkwy Suite 400, Lehi, UT 84043",
+            "phoneNumber": "801-653-0264",
+            "websiteURL": "https://www.neighbor.com/",
+            "imageFileName": "images/neighbor.png",
+            "membershipLevel": "Bronze",
+            "otherInformation": "USafer, closer, more convenient storage"
         } 
     ]
 }

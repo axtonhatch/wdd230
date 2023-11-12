@@ -318,6 +318,7 @@ button[type="submit"]:hover {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  background-color: #e7e7e7;
 }
 
 .directory-btn button {
@@ -382,5 +383,5 @@ display: none;
 }
 
 .list section:nth-child(odd) {
-background-color: purple;
+background-color: #e7e7e7;
 }
