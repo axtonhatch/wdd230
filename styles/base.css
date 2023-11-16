@@ -167,6 +167,29 @@ h2:after {
   padding-left: 1rem;
 }
 
+.cardone {
+  border: 1px solid #868883;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.cardone h3 {
+  background-color: #608198;
+  color: #dbdce0;
+  text-align: center;
+  padding: 5px;
+  margin-top: 0;
+}
+
+.cardone ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.cardone li {
+  padding: 1px;
+}
+
 .google-map {
   padding-bottom: 50%;
   position: relative;
