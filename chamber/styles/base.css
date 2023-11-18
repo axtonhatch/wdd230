@@ -184,6 +184,20 @@ a:visited {
     color: #e7e7e7;
 }
 
+#meetGreetBanner {
+  display: none;
+  background-color: #e7e7e7;
+  color: #313334;
+  padding: 10px;
+  text-align: center;
+}
+.closeBanner {
+  cursor: pointer;
+  color: #721c24;
+  float: right;
+  font-weight: bold;
+}
+
 footer {
   background-color: #e7e7e7;
   color: #313334;
@@ -387,3 +401,5 @@ display: none;
 .list section:nth-child(odd) {
 background-color: #e7e7e7;
 }
+
+

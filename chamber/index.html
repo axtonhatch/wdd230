@@ -27,8 +27,8 @@
 <body>
   <header>
     <div class="hero">
+      <h1>Provo Chamber of Commerce</h1>
       <picture>
-        <h1>Provo Chamber of Commerce</h1>
         <source media="(max-width: 500px)" srcset="images/provo-hero-small.webp">
         <source media="(max-width: 1000px)" srcset="images/provo-hero-medium.webp">
         <img src="images/provo-hero-large.webp" alt="yess" width="1500" height="750">
@@ -70,11 +70,14 @@
     <div class="container-child five">
       <h2>Weather</h2>
       <div id="weather">
-        <p>Temperature: <span id="temperature">25°F</span></p>
-        <p>Wind Speed: <span id="windspeed">5.0 mph</span></p>
-        <p>Wind Chill: <span id="windchill">N/A</span></p>
+        <p><span id="temperature">Loading...</span></p>
+        <p><span id="weather-description">Loading...</span></p>
+        <p><span id="three-day-forecast">Loading...</span></p>
       </div>
-      
+      <div id="meetGreetBanner">
+        <span class="closeBanner" onclick="closeBanner()">✖︎</span>
+        <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.!</p>
+      </div>
     </div>
   <footer>
     <div class="footer-container">
