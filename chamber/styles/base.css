@@ -198,6 +198,25 @@ a:visited {
   font-weight: bold;
 }
 
+/* Styles for the button */
+ .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #e7e7e7; /* Button color */
+  color: #ffffff; /* Text color */
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #ccc; /* Darker button color on hover */
+}
+
+
 footer {
   background-color: #e7e7e7;
   color: #313334;
