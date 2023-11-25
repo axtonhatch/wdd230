@@ -342,7 +342,7 @@ button[type="submit"]:hover {
 }
 
 .directory-btn button svg {
-  fill: #608198;
+  color: #608198;
 }
 
 .cards {
