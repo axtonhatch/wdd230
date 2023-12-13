@@ -1,5 +1,5 @@
 async function fetchWeatherData() {
-    const weatherUrl = "https://api.openweathermap.org/data/2.5/weather?lat=40.234&lon=-111.659&units=imperial&appid=1ee773b191e6894fe565bfd075600b87";
+    const weatherUrl = "https://api.openweathermap.org/data/2.5/weather?lat=20.51&lon=-86.96&units=imperial&appid=1ee773b191e6894fe565bfd075600b87";
     try {
         const response = await fetch(weatherUrl);
         if (response.ok) {
@@ -44,7 +44,7 @@ function displayHighTemperature(weatherData) {
 }
 
 async function fetchOneDayThreePMForecast() {
-    const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=40.234&lon=-111.569&units=imperial&appid=1ee773b191e6894fe565bfd075600b87";
+    const forecastUrl = "https://api.openweathermap.org/data/2.5/forecast?lat=20.51&lon=-86.96&units=imperial&appid=1ee773b191e6894fe565bfd075600b87";
     try {
         const response = await fetch(forecastUrl);
         if (response.ok) {

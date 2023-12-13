@@ -80,6 +80,9 @@
         margin: 0;
         padding-top: 40px;
     }
+    ul{
+        display: block; 
+    }
     
     /* main */
 
@@ -101,6 +104,9 @@
     .heroText button {
         width: 70%;
     }
+    .call {
+        display: block;
+    }
 
     /* Rental Table */
 
@@ -121,14 +127,12 @@
         border-radius: 10px;
         overflow-x: auto;
       }
-    
       .rental table {
         width: auto;
         border-collapse: collapse;
         margin-bottom: 10px;
         overflow: auto;
       }
-    
       .rental td {
         font-family: 'Poppins', 'Arial';
         text-align: center; 
@@ -137,7 +141,6 @@
         padding: 5px;
         white-space: nowrap;
       }
-    
       .rental th {
         font-family: 'Gabarito', 'Arial';
         font-weight: 600;
@@ -169,16 +172,24 @@
     .weather {
         margin: 30px 5%;
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
-    .weatherDetails {
+    .Cweather {
         grid-column: 1;
         grid-row: 1;
     }
-    #forecast {
+    .Tweather {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    .weatherDetails {
         grid-column: 1;
         grid-row: 2;
+    }
+    #forecast {
+        grid-column: 1;
+        grid-row: 4;
         margin-bottom: 30px;
     }
     .closeable-message {
@@ -199,6 +210,9 @@
 
     /* Rent Page */
 
+    .rentals {
+        grid-template-columns: 1fr;
+    }
     .rentalHeader{
         border-radius: 0;
         margin: 80px 10%;
@@ -220,6 +234,12 @@
         margin: 0 10%;
         padding: 10px;
         font-size: 1.2rem;
+    }
+    #atvSection {
+        height: 100%;
+    }
+    #carSection {
+        height: 100%;
     }
 
     /* Reserve page Form */

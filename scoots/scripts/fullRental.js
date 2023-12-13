@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             const scooterElement = document.createElement('div');
             scooterElement.innerHTML = `
                 <h3>${type}</h3>
-                <p>Max People: ${max}</p>
+                <p>Max. Persons: ${max}</p>
                 <h4> Reserve Price </h4>
                 <p>Half Day (3 hours): $${halfDay_reserve}</p>
                 <p>Full Day : $${fullDay_reserve}</p>
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             const atvElement = document.createElement('div');
             atvElement.innerHTML = `
                 <h3>${type}</h3>
-                <p>Max People: ${max}</p>
+                <p>Max. Persons: ${max}</p>
                 <h4> Reserve Price </h4>
                 <p>Half Day (3 hours): $${halfDay_reserve}</p>
                 <p>Full Day : $${fullDay_reserve}</p>
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             const carElement = document.createElement('div');
             carElement.innerHTML = `
                 <h3>${type}</h3>
-                <p>Max People: ${max}</p>
+                <p>Max. Persons: ${max}</p>
                 <h4> Reserve Price </h4>
                 <p>Half Day (3 hours): $${halfDay_reserve}</p>
                 <p>Full Day : $${fullDay_reserve}</p>

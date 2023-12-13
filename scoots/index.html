@@ -17,8 +17,8 @@
     <meta name="og:url" content="https://axtonhatch.github.io/wdd230/index.html">
 
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/bigger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,10 +47,10 @@
         <section class="heroText">
             <h2>Welcome to</h2>
             <img src="images/scoots.png" alt="scoots logo">
-            <button onclick="scrollToSection('rental')">Rental Info</button>
         </section>
         <div class="call">
-            <h3>Enjoy all there is to offer here in Cozumel! How might you do that? Our Scooters, ATV's and Jeeps are perfect for experianceing all Cozumel has to offer. Explore Cozumel in comfort and class! Start your adventure and reserve your ride today!</h3>
+            <img class="cozumelscooter" src="images/cozumelscooter.jpg" alt="Cozumel Scooter">
+            <h3>🌴Enjoy all there is to offer here in Cozumel! How might you do that? Our Scooters, ATV's and Jeeps are perfect for experianceing all Cozumel has to offer. Explore Cozumel in comfort and class! Start your adventure and reserve your ride today!🌴</h3>
         </div>
         <div class="rental">
             <div id="scroll">Scroll for More! →</div>
@@ -67,32 +67,43 @@
               </thead>
               <tbody id="rentalTableBody"></tbody>
             </table>
+        </div>
+        <div class="butt">
+            <div></div>
             <a class="reserveButton" href="rent.html">Full Rental info</a>
-        </div>
-        <a class="reserveButton" href="reserve.html">Reserve now!</a>
-        <div class="summary">
-            <div class="social">
-                <p>Check out our Social Media!</p>
-                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook-logo"></a>
-                <a href="https://www.x.com/" target="_blank"><img src="images/twitter.jpg" alt="twitter-logo"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.jpg" alt="instagram-logo"></a>
-            </div>
-        </div>
+            <a class="reserveButton" href="reserve.html">Reserve now!</a> 
+            <div></div>
+        </div> 
         <section class="weather">
-            <div class="weatherDetails">
+            <div class="Cweather">
                 <h3>Current Weather</h3>
+            </div>
+            <div class="weatherDetails">
                 <p><strong>Temperature:</strong> <span id="currentTemp"></span></p>
                 <p><strong>Description:</strong> <span id="weatherDesc"></span></p>
                 <p><strong>Humidity:</strong> <span id="humidity"></span></p>
             </div>
-            <div id="forecast">
+            <div class="Tweather">
                 <h3>Tomorrows Weather</h3>
+            </div>
+            <div id="forecast">
             </div>
         </section>
     </main>
     <footer>
-        <p>2023 &copy; <span id="year"></span> Axton Hatch | Provo Utah</p>
-        <p id="lastModified"></p>
+        <div class="foot">
+            <div>
+                <p>2023 &copy; <span id="year"></span> Axton Hatch | Provo Utah</p>
+                <p id="lastModified"></p>
+            </div>
+            <div class="summary">
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook-logo"></a>
+                    <a href="https://www.x.com/" target="_blank"><img src="images/twitter.jpg" alt="twitter-logo"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.jpg" alt="instagram-logo"></a>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="scripts/burger.js"></script>
     <script src="scripts/weather.js"></script>
