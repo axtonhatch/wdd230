@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Open+Sans:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <meta name="description" content="WDD 230 - Web Frontend Development - Axton hatch Final Project">
+    <meta name="author" content="Axton Hatch">
+        
+    <meta name="og:title" content="Axton hatch - WDD 230 Web Frontend Development">
+    <meta name="og:type" content="Website">
+    <meta name="og:image" content="https://en.wikipedia.org/wiki/Provo,_Utah#/media/File:Downtown_Provo.jpg">
+    <meta name="og:url" content="https://axtonhatch.github.io/wdd230/scoots/contact.html">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/bigger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Scoots | Contact Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="mobile-controls">
+                <button id="menu" class="show"></button>
+            </div>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rent.html">Rentals</a></li>
+                <li><a href="reserve.html">Reservation</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contactPage">
+        <form id="contactForm" action="contacted.html">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="Name" required placeholder="John Doe">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="someone@email.com">
+
+            <label for="textBox">What do you need help with?:</label>
+            <input type="text" id="textBox" name="description" required>
+
+            <button class="getHelp" type="submit">Get Help</button>
+        </form>
+        <h3>Scoots Locations</h3>
+        <div class="maps-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3737.706379338405!2d-86.97697652564759!3d20.47724949936414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTerminal%20Puerta%20Maya!5e0!3m2!1sen!2sza!4v1702111257222!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14947.536825866557!2d-86.95446765832386!3d20.510972543700642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59cceda3d799%3A0xbf8ea7e97451cfd8!2sCentro%2C%20San%20Miguel%20de%20Cozumel%2C%20Quintana%20Roo%2C%20Mexico!5e0!3m2!1sen!2sza!4v1702111313646!5m2!1sen!2sza" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div id="date">
+            <p>&copy; <span id="year"></span> Axton Hatch | Provo Utah</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/burger.js"></script>
+</body>
+</html>

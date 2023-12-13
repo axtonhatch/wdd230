@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Open+Sans:wght@600&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <meta name="description" content="WDD 230 - Web Frontend Development - Axton hatch Final Project">
+    <meta name="author" content="Axton Hatch">
+        
+    <meta name="og:title" content="Axton hatch - WDD 230 Web Frontend Development">
+    <meta name="og:type" content="Website">
+    <meta name="og:image" content="https://en.wikipedia.org/wiki/Provo,_Utah#/media/File:Downtown_Provo.jpg">
+    <meta name="og:url" content="https://axtonhatch.github.io/wdd230/scoots/reserve.html">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/bigger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <title>Scoots | Reserve</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="mobile-controls">
+                <button id="menu" class="show"></button>
+            </div>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="rent.html">Rentals</a></li>
+                <li><a href="reserve.html">Reservation</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="reserveMain">
+        <section class="reservation-form">
+            <h1>Rental Reservation</h1>
+            <form id="rentalForm" action="thankyou.html">
+
+                <label for="chooseDate">When would you like to book?:</label>
+                <input type="date" id="chooseDate" name="date" required min="2023-01-01" max="9999-12-31">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" required placeholder="John">
+
+                <label for="name">Last Name</label>
+                <input type="text" id="surname" name="Surname" required placeholder="Doe">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="someone@email.com">
+
+                <label for="phone">Phone Number:</label>
+                <input type="number" id="phone" name="call" required>
+
+                <label for="vehicle">Vehicle</label>
+                <select id="vehicle" name="Vehicle" required>
+                    <option value="" disabled selected>-- Please Select --</option>
+                    <option value="" disabled>------------------------</option>
+                    <option value="option1">Honda Metro Scooter</option>
+                    <option value="option2">Honda Dio Scooter</option>
+                    <option value="option3">Honda PCX 150 Scooter</option>
+                    <option value="" disabled>------------------------</option>
+                    <option value="option4">Honda Pioneer ATV</option>
+                    <option value="" disabled>------------------------</option>
+                    <option value="option5">Jeep Wrangler - 4 Door with A/C</option>
+                    <option value="option6">Jeep Wrangler - 2 Door</option>
+                    <option value="" disabled>------------------------</option>
+                </select>
+                <button type="submit">Reserve your Ride</button>
+            </form>
+        </section>
+        <div id="confirmationModal" class="modal">
+            <div class="modal-content">
+              <p>Are you ready to reserve?</p>
+              <p>Make sure to check your details before reserving</p>
+              <button id="confirmModalButton">Yes</button>
+              <button id="cancelModalButton">Cancel</button>
+            </div>
+          </div>
+    </main>
+    <footer>
+        <div id="date">
+            <p>&copy; <span id="year"></span> Axton Hatch | Provo Utah</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/burger.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/confirm.js"></script>
+</body>
+</html>
