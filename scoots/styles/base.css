@@ -47,7 +47,7 @@ ul {
     text-align: center;
     font-family: 'Poppins', 'Arial';
     font-size: 2rem;
-    background-image: url("../images/road.jpg"); opacity: 0.7;
+    background-image: url("https://axtonhatch.github.io/wdd230/scoots/images/road.jpg"); opacity: 0.7;
     background-size: cover;
     background-position: center;
     height: 400px;
