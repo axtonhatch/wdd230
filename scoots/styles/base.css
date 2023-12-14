@@ -43,7 +43,6 @@ ul {
     display: flex;
     align-items: center;
 }
-
 /* Main */
 
 .hero {
@@ -128,13 +127,16 @@ ul {
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    background-color: #506e83;
+    background-color: #608198;
     color: white;
     font-family: 'Gabarito', 'Arial';
     font-size: 1.5rem;
     text-decoration: none;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.319);
+}
+.reserveButton:hover {
+    background-color: #506e83;
 }
 .butt {
     display: grid;
@@ -331,10 +333,9 @@ footer {
 /* Reserve page Form */
 
 .reserveMain {
-    display: flex;
-    justify-content: center;
+    display: block;
     align-items: center;
-    margin: 60px 0;
+    margin: 60px ;
   }
   .reservation-form {
     background-color: white;
@@ -342,13 +343,12 @@ footer {
     border-radius: 10px;
     box-shadow: 0 4px 6px #0000003e;
     margin: 0 20%;
-    width: 100%;
   }
   .reservationh1 {
     background-color: #608198;
     color: white;
     text-align: center;
-    margin: 20px 20%;
+    margin: 20px 22%;
     padding: .5px;
     font-family: 'Gabarito', 'Arial';
     border-radius: 10px;
@@ -415,6 +415,20 @@ footer {
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.27);
     cursor: pointer;
   }
+  .cont-agreements h3{
+    margin: 10px 20%;
+  }
+  .agreements h2 {
+    text-align: center;
+  }
+  .agreements {
+    background-color: #c1cfda;
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Gabarito', 'Arial';
+    margin: 10px 20%;
+  }
+
 
 /* contact page */
 
