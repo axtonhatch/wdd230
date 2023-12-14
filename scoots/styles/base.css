@@ -394,8 +394,8 @@ footer {
     height: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #506e83;
-    color: white;
+    background-color: #c1cfda;
+    color: black;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.558);
@@ -500,7 +500,8 @@ iframe {
     text-decoration: underline;
     font-family: 'Gabarito', 'Arial';
     font-size: 2rem;
-    background-color: white;
+    background-color: #c1cfda;
+    color: black;
     margin: 40px 20% 0;
     border-top-left-radius:20px; 
     border-top-right-radius: 20px;
@@ -510,7 +511,8 @@ iframe {
 .contacted p, .thankYou p{
     text-align: center;
     font-family: 'Poppins', 'Arial';
-    background-color: white;
+    background-color: #608198;
+    color: white;
     font-size: 2rem;
     margin: 0 20% 40px;
     border-bottom-left-radius:20px; 
