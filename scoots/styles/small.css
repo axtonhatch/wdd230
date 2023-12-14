@@ -206,6 +206,11 @@
         box-sizing: border-box;
         text-align: center;
     }
+    .foot {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 
     /* Rent Page */
